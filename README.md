@@ -31,6 +31,8 @@ League Of Legends
 * Upload Page  
 * Google Cloud Storage - Upload to GCS directly from the client. Generate a Signed URL from the Server which the client uses.
 * Service to parse the files located in GCS. No realtime parsing. Queued up to be parsed. 
+* Test Units  
 
 ##### Phase 4
-* Dashboard Page - Demo's parsed, to be parsed. Total Statistics. ect 
+* Dashboard Page - Demo's parsed, to be parsed. Total Statistics. ect
+* Test Units 

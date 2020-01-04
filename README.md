@@ -15,10 +15,11 @@ League Of Legends
 ##### Phase 1
 * Index / Header / Footer Pages  
 * Session Handling  
-* Message Handling  
+* Message Handling /w Multiple Languages
 * MariaDB Implementation  
 * jQuery Implementation  
 * Test Units  
+* Docker And Kubernetes Deployment
 
 ##### Phase 2
 * Database Design  
@@ -35,4 +36,6 @@ League Of Legends
 
 ##### Phase 4
 * Dashboard Page - Demo's parsed, to be parsed. Total Statistics. ect
+* Demo List Page
+* Demo Details Page
 * Test Units 

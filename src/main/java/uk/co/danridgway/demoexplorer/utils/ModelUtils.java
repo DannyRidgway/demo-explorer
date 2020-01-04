@@ -17,6 +17,11 @@ public class ModelUtils {
     }
 
     public Model setupModel(){
+        // Add the messages to the model for the page.
+        MessageUtils messageutils = new MessageUtils(page);
+        //Object messages = messageutils.getMessages();
+        //model.addAttribute("messages", messages);
+
         return model;
     }
 

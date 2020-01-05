@@ -8,14 +8,6 @@ Counter Strike: Global Offensive
 Dota 2  
 League Of Legends
 
-#### Developed Using
-IntelliJ IDEA  
-Java  
-Gradle  
-Spring
-Thymeleaf
-jQuery  
-
 #### Highly WIP
 ##### Phase 1
 * Index / Header / Footer Pages  

@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:fragment="head">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Title Test</title>
+        <script type="text/javascript" th:src="@{/libraries/jquery-3.4.1.min.js}"></script>
+
+        <!--/*@thymesVar id="page" type="java.lang.String"*/-->
+        <!--/*@thymesVar id="components" type="java.lang.Object"*/-->
+        <script th:each="component : ${components}" type="text/javascript" th:src="@{'/views/'+ ${page} +'/'+ ${component} +'.js'}"></script>
+        <script th:each="component : ${components}" type="text/javascript" th:src="@{'/views/'+ ${page} +'/'+ ${component} +'.js'}"></script>
+    </head>
+    <body>
+    </body>
+</html>

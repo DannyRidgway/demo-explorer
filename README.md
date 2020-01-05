@@ -1,15 +1,20 @@
 # Cloud Demo Parser
-
 A demo parser site that allows you to register, login, upload and save demos.  
 
 Pages that show game data in detail much like the CSGO demo manager desktop app. 
-
-![Example](https://i.imgur.com/2ujB1yq.png) 
 
 #### Games Supported
 Counter Strike: Global Offensive  
 Dota 2  
 League Of Legends
+
+#### Developed Using
+IntelliJ IDEA  
+Java  
+Gradle  
+Spring
+Thymeleaf
+jQuery  
 
 #### Highly WIP
 ##### Phase 1
@@ -19,7 +24,7 @@ League Of Legends
 * MariaDB Implementation  
 * jQuery Implementation  
 * Test Units  
-* Docker And Kubernetes Deployment
+* Docker/Kubernetes/Liquibase Deployment
 
 ##### Phase 2
 * Database Design  

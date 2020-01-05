@@ -15,7 +15,8 @@ public class IndexController {
         modelutils.setPage("index");
         modelutils.setModel(model);
         model = modelutils.setupModel();
-
+        String test = "World";
+        model.addAttribute("test", test);
 
         // TODO Idea is to have multiple components per page e.g. demodetails/demodetails, demodetails/scoreboardComponent
         return "index/index";

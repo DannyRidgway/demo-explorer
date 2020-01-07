@@ -9,7 +9,7 @@ import uk.co.danridgway.demoexplorer.utils.ModelUtils;
 @Controller
 public class IndexController {
 
-    @GetMapping("/index")
+    @GetMapping(value={"/index", "/index.html"})
     public String index(Model model) {
         ModelUtils modelutils = new ModelUtils();
         modelutils.setPage("index");

@@ -1,9 +1,13 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head th:include="fragments/header :: head">
+    <head th:include="/fragments/header :: head">
     </head>
     <body>
+        <div th:replace="fragments/header :: header"></div>
+
         <!--/*@thymesVar id="test" type="java.util.Objects"*/-->
         <p th:text="'Hello, ' + ${test} + '!'"></p>
+
+        <div th:replace="fragments/footer :: footer">Footer</div>
     </body>
 </html>

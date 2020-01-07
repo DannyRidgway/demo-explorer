@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+</head>
+<body>
+<!-- Footer -->
+<div th:fragment="footer" th:align="center">
+    &copy;&nbsp;<span th:text="${#temporals.format(#temporals.createNow(), 'yyyy')}">2020</span> Demo project
+</div>
+
+</body>
+</html>
